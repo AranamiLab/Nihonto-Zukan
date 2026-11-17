@@ -1,0 +1,18 @@
+PASOS PARA PUBLICAR EN GITHUB PAGES
+
+Antes de empezar, a esta carpeta le falta un archivo: index.html (el atlas).
+Colócalo aquí, junto a README.md, antes de subir nada.
+
+1. Crea una cuenta en github.com (gratis) y confirma el correo.
+2. Pulsa "+" > "New repository". Nombre: nihonto-zukan. Visibilidad: Public.
+   No marques "Add a README" (ya lo traemos).
+3. En el repositorio nuevo, pulsa "uploading an existing file".
+4. Arrastra el CONTENIDO de la carpeta (index.html, README.md, los dos LICENSE
+   y .nojekyll), no la carpeta en sí. Pulsa "Commit changes".
+5. Ve a Settings > Pages. En "Build and deployment" elige
+   Source: "Deploy from a branch", Branch: main, carpeta: / (root). Guarda.
+6. Espera 1 o 2 minutos. La dirección será:
+   https://TU-USUARIO.github.io/nihonto-zukan/
+7. Para actualizar el atlas más adelante: abre el repositorio, "Add file" >
+   "Upload files", sube el nuevo index.html y confirma el cambio.
+8. Dominio propio (opcional, más adelante): Settings > Pages > Custom domain.
